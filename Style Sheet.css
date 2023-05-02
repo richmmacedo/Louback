@@ -40,7 +40,10 @@ body {
     font-family: "Bitter", Helvetica, sans-serif;
     font-weight: 300;
 
-
+.menu a.active {
+    text-decoration: underline;
+}
+    
 }
 
 .menu-container {
@@ -89,3 +92,4 @@ body {
     height: auto; /* Set the height to auto to maintain the aspect ratio */
     border-radius: 3px;
 }
+
