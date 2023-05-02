@@ -20,6 +20,10 @@ body {
     font-weight: 300;
 }
 
+.menu a.active {
+    text-decoration: underline;
+}
+
 .menu-container {
     display: flex;
     justify-content: right; /* center the .menu within its container */
