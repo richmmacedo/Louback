@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(206, 197, 250, 0.61);
+}
+
+.menu {
+    list-style: none; /* remove bullet points */
+    display: flex; /* make the menu items display in a row */
+    padding: 0; /* add this line to remove any default padding */
+}
+
+.menu li {
+    margin: 0 9px; /* add some space between menu items */
+    text-align: center;
+    font-size: 18px;
+    font-family: "Bitter", Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: right; /* center the .menu within its container */
+    flex-grow: 1; /* make the container grow to fill available space */
+    margin: 0 4em 0 0; /* add some space between menu items */
+}
+
+.home-button {
+    font-family: "Bitter", Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    margin: 0 0 0 3em; /* add some space between menu items */
+}
+
+.header a {
+    color: #000; /* set the text color */
+    text-decoration: none;
+    text-align: center;
+}
+
+.header a:hover {
+    color: rgb(163, 149, 148);
+}
+
+.header {
+    width: 100%;
+    height: 15vh;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.overall h3 {
+    display: block;
+    margin-top: 5em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: "Bitter";
+    font-size: 24px;
+}
+
+.overall li {
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+    font-family: "Bitter", Helvetica, sans-serif;
+    font-weight: 300;
+    max-width: calc(100% - 40em); /* Set a max-width for the list items */
+    margin: 1em auto; /* Center the list items and keep the top/bottom margin */
+}
+
+.Project Container {
+    display: flex;
+    justify-content: center; /* Update this to center the .menu within its container */
+    flex-grow: 1; /* make the container grow to fill available space */
+}
