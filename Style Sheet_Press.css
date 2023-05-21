@@ -80,16 +80,15 @@ body {
 
 .Press-Container-Press {
     display: flex;
-    flex-grow: 1;
-    justify-content: center; /* Update this to center the .menu within its container */
+    justify-content: center;
     align-items: center;
-    height: 100vh;
-    flex-grow: 1; /* make the container grow to fill available space */
+    /*height: 100vh;*/
 }
 
 .Press-Container-Press iframe {
-    max-width: 50%; /* Set the maximum width of the image to 50% of its container */
-    height: auto; /* Set the height to auto to maintain the aspect ratio */
+    height: 400px; 
+    width: 700px;
+
 }
 
 .press-links a {
