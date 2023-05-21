@@ -92,13 +92,3 @@ body {
     height: auto; /* Set the height to auto to maintain the aspect ratio */
     border-radius: 3px;
 }
-
-#foto2 {
-    display: block; /* Set the image display to block */
-    margin-left: auto; /* Set the left margin to auto */
-    margin-right: auto; /* Set the right margin to auto */
-    margin-top: 5em;
-    max-width: 50%; /* Set the maximum width of the image to 50% of its container */
-    height: auto; /* Set the height to auto to maintain the aspect ratio */
-    border-radius: 3px;
-}
