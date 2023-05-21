@@ -89,6 +89,10 @@ body {
     text-decoration: none;
 }
 
+.pub-links a:hover {
+    text-decoration: underline;
+}
+
 
 #ultimo {
     margin-bottom: 2em;
