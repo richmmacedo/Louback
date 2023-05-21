@@ -78,10 +78,17 @@ body {
     margin: 1em auto; /* Center the list items and keep the top/bottom margin */
 }
 
-.Experience Container Experience {
+.Press Container Press {
     display: flex;
-    justify-content: left; /* Update this to center the .menu within its container */
+    justify-content: center; /* Update this to center the .menu within its container */
+    align-items: center;
+    height: 100vh;
     flex-grow: 1; /* make the container grow to fill available space */
+}
+
+.Press Container Press iframe {
+    max-width: 50%; /* Set the maximum width of the image to 50% of its container */
+    height: auto; /* Set the height to auto to maintain the aspect ratio */
 }
 
 .xp-links a {
