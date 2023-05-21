@@ -40,19 +40,51 @@ body {
     font-family: "Bitter", Helvetica, sans-serif;
     font-weight: 400;
 }
-.menu {
-    list-style: none; /* remove bullet points */
-    display: flex; /* make the menu items display in a row */
-    padding: 0; /* add this line to remove any default padding */
 
+/* Menu styles for larger screens */
+.menu {
+    list-style: none;
+    display: flex;
+    padding: 0;
 }
 
 .menu li {
-    margin: 0 9px; /* add some space between menu items */
+    margin: 0 9px;
     text-align: center;
     font-size: 18px;
     font-family: "Bitter", Helvetica, sans-serif;
     font-weight: 300;
+}
+
+.hamburger {
+    display: none;
+    font-size: 30px;
+    padding: 10px;
+    background-color: rgba(206, 197, 250, 0.61);
+    border: none;
+    margin-left: auto;
+}
+
+.cross {
+    display: none;
+}
+
+/* Menu styles for smaller screens */
+@media (max-width: 600px) {
+.menu {
+    list-style: none;
+    display: none; /* Initially hidden */
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    top: 60px;
+    padding: 0;
+    background-color: #fff;
+}
+
+.menu li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
 }
 
 .menu li:last-child {
@@ -61,33 +93,9 @@ body {
 
 .hamburger {
     display: block;
-    font-size: 30px;
-    padding: 10px;
+}
 }
 
-.cross {
-    display: none;
-    font-size: 30px;
-    padding: 10px;
-}
-
-@media (min-width: 600px) {
-.menu {
-    display: flex;
-    position: static;
-    flex-direction: row;
-    background-color: transparent;
-}
-
-.menu li {
-    border-bottom: none;
-}
-
-.hamburger,
-.cross {
-    display: none;
-}
-}
 
 
 .menu-container {
@@ -98,11 +106,24 @@ body {
 
 }
 
+@media (max-width: 600px) {
+    .menu-container {
+        margin: 0; /* add some space between menu items */
+    }
+}
+
 .home-button {
     font-family: "Bitter", Helvetica, sans-serif;
     font-weight: 500;
     font-size: 32px;
     margin: 0 0 0 3em; /* add some space between menu items */
+}
+
+@media (max-width: 600px) {
+    .home-button {
+        font-size: 28px;
+        margin: 0 0 0 1em; /* add some space between menu items */
+    }
 }
 
 .header a {
