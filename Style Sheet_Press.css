@@ -91,13 +91,13 @@ body {
     height: auto; /* Set the height to auto to maintain the aspect ratio */
 }
 
-.xp-links a {
+.press-links a {
     color: inherit; /* Inherit the color from the parent element */
     text-decoration: none;
 }
 
-.xp-links a:hover {
-    text-decoration: underline;
+.press-links a:hover {
+    color: rgb(163, 149, 148);
 }
 
 .ashoka_vid {

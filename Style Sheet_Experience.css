@@ -90,7 +90,7 @@ body {
 }
 
 .xp-links a:hover {
-    text-decoration: underline;
+    color: rgb(163, 149, 148);
 }
 
 #ultimo {

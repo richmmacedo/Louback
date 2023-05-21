@@ -90,7 +90,7 @@ body {
 }
 
 .pub-links a:hover {
-    text-decoration: underline;
+    color: rgb(163, 149, 148);
 }
 
 
