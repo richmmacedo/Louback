@@ -78,11 +78,7 @@ body {
     margin: 1em auto; /* Center the list items and keep the top/bottom margin */
 }
 
-.Publications Container Poetry {
-    display: flex;
-    justify-content: left; /* Update this to center the .menu within its container */
-    flex-grow: 1; /* make the container grow to fill available space */
-}
+
 
 .pub-links a {
     color: inherit; /* Inherit the color from the parent element */
