@@ -67,6 +67,11 @@ body {
 
 .cross {
     display: none;
+    font-size: 30px;
+    background-color: rgba(206, 197, 250, 0.61);
+    border: none;
+    margin-left: auto;
+    padding: 10px;
 }
 
 /* Menu styles for smaller screens */
