@@ -59,7 +59,7 @@ body {
 
 .overall h3 {
     display: block;
-    margin-top: 5em;
+    margin-top: 0;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -77,8 +77,115 @@ body {
     margin: 1em auto; /* Center the list items and keep the top/bottom margin */
 }
 
-.Project Container {
+#project1-logo {
+    display: block; /* Set the image display to block */
+    margin-left: auto; /* Set the left margin to auto */
+    margin-right: auto; /* Set the right margin to auto */
+    margin-top: 0em;
+    max-width: 50%; /* Set the maximum width of the image to 50% of its container */
+    height: auto; /* Set the height to auto to maintain the aspect ratio */
+    border-radius: 3px;
+}
+
+@media (max-width: 600px) {
+    #project1-logo {
+        max-width: 80%;
+    }
+}
+
+.project1-about {
+    color: rgb(0, 0, 12);
+    font-family: "Bitter", Helvetica, sans-serif;
+    font-weight: 300;
+    margin: 0 auto 2em auto;
+    font-size: 18px;
+    text-align: justify;
+    line-height: 1.6;
+    width: 60%;
+}
+
+@media (max-width: 900px) {
+    .project1-about {
+        width: 80%;
+    }
+}
+
+@media (max-width: 600px) {
+    .project1-about {
+        width: 95%;
+        font-size: 16px;
+    }
+}
+
+.project1-name {
+    font-family: "Bitter", Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+.project1-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(7, 5vw);
+    grid-gap: 15px;
+
+}
+
+.project1-gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#project1-gallery-image1 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+#project1-gallery-image2 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+#project1-gallery-image3 {
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+#project1-gallery-image4 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 4;
+    grid-row-end: 7;
+}
+
+#project1-gallery-image5 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 7;
+}
+
+#project1-gallery-image6 {
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 7;
+}
+
+.project1-instagram-container {
     display: flex;
-    justify-content: center; /* Update this to center the .menu within its container */
-    flex-grow: 1; /* make the container grow to fill available space */
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.project1-instagram {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
 }
