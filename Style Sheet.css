@@ -60,6 +60,12 @@ body {
     text-decoration: underline;
 }
 
+@media (max-width: 600px) {
+    .menu a.active {
+        text-decoration: none;
+    }
+}
+
 .hamburger {
     display: none;
     font-size: 30px;
@@ -104,8 +110,6 @@ body {
     display: block;
 }
 }
-
-
 
 .menu-container {
     display: flex;
