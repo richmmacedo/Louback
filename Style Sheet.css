@@ -56,6 +56,10 @@ body {
     font-weight: 300;
 }
 
+.menu a.active {
+    text-decoration: underline;
+}
+
 .hamburger {
     display: none;
     font-size: 30px;
