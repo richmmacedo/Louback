@@ -70,7 +70,7 @@ body {
     display: none;
     font-size: 30px;
     padding: 10px;
-    background-color: rgba(206, 197, 250, 0.61);
+    background-color: #fff4ec;
     border: none;
     margin-left: auto;
 }
@@ -78,7 +78,7 @@ body {
 .cross {
     display: none;
     font-size: 30px;
-    background-color: rgba(206, 197, 250, 0.61);
+    background-color: #fff4ec;
     border: none;
     margin-left: auto;
     padding: 10px;

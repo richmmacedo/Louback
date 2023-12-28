@@ -11,31 +11,51 @@
         @import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,300;0,500;1,300;1,400&display=swap');
     </style>
 </head>
-    <body>
-        <header class="header">
-            <a href="#" class="home-button">Luiza Louback</a>
-            <div class="menu-container">
-                <ul class="menu">
-                    <li><a href="Frame.html" class="active">About</a></li>
-                    <li><a href="Creative Writing.html">Creative Writing</a></li>
-                    <li><a href="#">Experience</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </div>
-        </header>
-        <div class="overall">
-            <a href="Frame.html"><img id="foto" src="LL_Website_Pic.jpg"/></a>
-
-
-            <p class="about-1"><span class ="name">Luiza Louback</span> is a Brazilian writer. Her work has appeared or is forthcoming in The Foundationalist, Bridge Ink, Kalopsia Journal, and Parallax Review, among others.
-                She has been recognized by The School of the New York Times, Barnard University, the International Humans Rights Arts Festival, and more.
-                Luiza is an undergraduate student at the University of Pennsylvania majoring in English Literature and Communications with a minor in Journalistic Writing. <br><br>
-                When she is not writing, she advocates for literary accessibility in Latin America and gender equality through the non-profit, Lidere-se.
-                For her work as a social entrepreneur, Luiza has been recognized as a Global Teen Leader 2022 and an Ashoka Young Changemaker.
-            </p>
-
-
-
+<body>
+    <header class="header">
+        <a href="#" class="home-button">Luiza Louback</a>
+        <div class="menu-container">
+            <button class="hamburger">&#9776;</button>
+            <button class="cross">&#735;</button>
+            <ul class="menu">
+                <li><a href="Frame.html" class="active">About</a></li>
+                <li><a href="Journalism.html">Journalism</a></li>
+                <li><a href="Creative Writing.html">Creative Writing</a></li>
+                <li><a href="#">Experience</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
         </div>
-    </body>
+    </header>
+    <div class="overall">
+        <a href="Frame.html"><img id="foto" src="LL_Website_Pic.jpg" /></a>
+
+
+        <p class="about-1">
+            <span class="name">Luiza Louback</span> is a Brazilian writer. Her work has appeared or is forthcoming in The Foundationalist, Bridge Ink, Kalopsia Journal, and Parallax Review, among others.
+            She has been recognized by The School of the New York Times, Barnard University, the International Humans Rights Arts Festival, and more.
+            Luiza is an undergraduate student at the University of Pennsylvania majoring in English Literature and Communications with a minor in Journalistic Writing. <br><br>
+            When she is not writing, she advocates for literary accessibility in Latin America and gender equality through the non-profit, Lidere-se.
+            For her work as a social entrepreneur, Luiza has been recognized as a Global Teen Leader 2022 and an Ashoka Young Changemaker.
+        </p>
+
+
+
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(".hamburger").click(function () {
+            $(".menu").slideToggle("slow", function () {
+                $(".hamburger").hide();
+                $(".cross").show();
+            });
+        });
+
+        $(".cross").click(function () {
+            $(".menu").slideToggle("slow", function () {
+                $(".cross").hide();
+                $(".hamburger").show();
+            });
+        });
+    </script>
+</body>
 </html>
