@@ -212,3 +212,20 @@ body {
 #ultimo {
     margin-bottom: 2em;
 }
+
+.icon-container {
+    /* Center the icons horizontally */
+    display: flex;
+    justify-content: center;
+    /* Optional: Add some space around the icons */
+    margin-top: 60px;
+}
+
+/* Optional: Style the icons */
+.icon-container img {
+    /* Add some space between the icons */
+    margin: 0 10px;
+    /* Add additional styling if needed */
+    width: 30px; /* Adjust the width as needed */
+    height: 30px; /* Adjust the height as needed */
+}

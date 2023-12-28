@@ -7,7 +7,7 @@ body {
 }
 
 .about-1 {
-    color: rgb(0, 0, 12);
+    color: rgb(0, 0, 0);
     font-family: "Bitter", Helvetica, sans-serif;
     font-weight: 300;
     margin: 3em auto 2em auto;
@@ -181,4 +181,21 @@ body {
     #foto {
         max-width: 80%;
     }
+}
+
+.icon-container {
+    /* Center the icons horizontally */
+    display: flex;
+    justify-content: center;
+    /* Optional: Add some space around the icons */
+    margin-top: 60px;
+}
+
+/* Optional: Style the icons */
+.icon-container img {
+    /* Add some space between the icons */
+    margin: 0 10px;
+    /* Add additional styling if needed */
+    width: 30px; /* Adjust the width as needed */
+    height: 30px; /* Adjust the height as needed */
 }
